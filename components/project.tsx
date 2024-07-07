@@ -1,5 +1,3 @@
-/** @format */
-
 "use client";
 
 import { useRef } from "react";
@@ -20,7 +18,8 @@ export default function Project({
     link,
 }: ProjectProps) {
 
-    const ref = useRef<HTMLDivElement>(null);
+    const ref = useRef<HTMLDivElement>(null); 
+    //the useScroll Hook from Framer Motion defines from which component the animation must start.
     const { scrollYProgress } = useScroll({
         target: ref,
         offset: ["0 1", "1.33 1"],

@@ -5,14 +5,13 @@
 import React from "react";
 import SectionHeading from "./section-heading"
 import { motion } from "framer-motion";
-
+import { useSectionInView } from "@/lib/hooks";
 
 export default function About() {
-   
-
+    const { ref } = useSectionInView("About");
     return (
         <motion.section
-         
+            ref={ref}
             className="mb-16 max-w-[49rem] text-center leading-8 sm:mb-40 scroll-mt-28"
             initial={{ opacity: 0, y: 100 }}
             animate={{ opacity: 1, y: 0 }}
@@ -33,8 +32,8 @@ export default function About() {
                 seasoned <span className="italic">full-stack developer</span>
                 <br />
                 he specializes in{" "}backend developement particularly with
-                <span className="font-medium"> Spring Boot</span>.{" "}Aritra's proficiency extends to various technologies, including
-                <span className="font-medium">React JS, Python, GraphQL, SQL</span> <br />
+                <span className="font-medium"> Spring Boot</span>.{" "}Aritra's proficiency extends to various technologies, including{" "}
+                <span className="font-medium">React JS, Java, Python, GraphQL, SQL, MongoDB</span>. <br />
                 His diverse skill set and dedication make him a{" "}
                 <span className="italic">
                      valuable contributor in the fast-paced world of Software Development.
