@@ -1,3 +1,27 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+html {
+  --line-color: #e5e7eb;
+}
+
+html.dark {
+  --line-color: rgba(255, 255, 255, 0.2);
+}
+
+.borderBlack {
+  @apply border border-black/10;
+}
+
+body {
+  transition: background-color 0.3s ease, color 0.3s ease;
+  font-family: var(--font-poppins);
+}
+
+.unbounded {
+  font-family: var(--font-unbounded);
+  font-weight: 500;
+  font-size: 1.95rem;
+  line-height: 2.25rem;
+}

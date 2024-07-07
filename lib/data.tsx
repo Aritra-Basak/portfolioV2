@@ -33,7 +33,7 @@ export const links = [
         hash: "#contact",
     },
 ] as const;
-
+//Adding const make the links object more precise what it will actually contain with example and also makes it readonly.
 export const experiencesData = [
     {
         title: "Higher Secondary",
