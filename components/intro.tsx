@@ -1,5 +1,7 @@
 "use client";
 
+//user client -> defines that the current component is a client side component, used for rendering as UI in the client side.
+
 import React from 'react'
 import Image from 'next/image';
 import { motion } from "framer-motion";
@@ -8,9 +10,11 @@ import { BsArrowRight, BsLinkedin } from "react-icons/bs";
 import { HiDownload } from "react-icons/hi";
 import { FaGithubSquare } from "react-icons/fa";
 import { useSectionInView } from "@/lib/hooks";
+import { useActiveSectionContext } from '@/context/active-section-context';
 
 export default function Intro() {
-    const { ref } = useSectionInView("Home");
+    const { ref } = useSectionInView("Home", 0.5);
+    const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext();
   return (
     <section
     ref={ref}
@@ -82,7 +86,12 @@ export default function Intro() {
                 {/* The group classname gives the child component the similar property from the parent component */}
                 <Link
                     href="#contact"
-                    className="group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition">
+                    className="group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition"
+                    onClick={() => {
+                        setActiveSection("Contact");
+                        setTimeOfLastClick(Date.now());
+                    }}
+                >
                         Contact me here{" "} <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
                 </Link>
 
