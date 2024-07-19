@@ -24,6 +24,7 @@ export default function ThemeContextProvider({
     if (theme === "light") {
       setTheme("dark");
       window.localStorage.setItem("theme", "dark");
+      //adding the dark class in the DOM, dark is specified as a custom class in the tailwind config file.
       document.documentElement.classList.add("dark");
     } else {
       setTheme("light");

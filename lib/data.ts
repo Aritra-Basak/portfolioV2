@@ -73,7 +73,7 @@ export const projectsData = [
     {
         title: "Graph QL",
         description:
-            "This project demonstrates the integration of Spring Boot, GraphQL, and an H2 in-memory database to create a robust, efficient, and scalable API for querying and managing data.",
+            "This project demonstrates the integration of Spring Boot, GraphQL, and an H2 in-memory database .",
         tags: [
             "Java",
             "Spring Boot",
@@ -87,7 +87,7 @@ export const projectsData = [
     {
         title: "Connection Pool and Prometheus",
         description:
-            "This project showcases the use of Spring Boot, HikariCP, and SQL for efficient data handling, with monitoring and visualization capabilities provided by Prometheus and Grafana.",
+            "This project showcases the use of Spring Boot, HikariCP, and SQL for efficient data handling, with Prometheus and Grafana.",
         tags: ["Java", "Spring Boot", "SQL", "Hikari CP","RESTful API", "Prometheus", "Grafana"],
         imageUrl: SpringBoot_Prometheus,
         link: "https://github.com/Aritra-Basak/SpringBoot_ConnectionPool",
@@ -95,15 +95,15 @@ export const projectsData = [
     {
         title: "Aadhaar Scanning",
         description:
-            "This is an hospital OPD Booking system uses info from scanning the Aadhaar Card. This project highlights the development of a dynamic web application using Spring MVC, enhanced with HTML, JavaScript, CSS, and Bootstrap for a responsive and user-friendly interface.",
-        tags: ["Java", "Spring MVC", "JSP", "HTML5", "CSS3", "JavaScript", "Bootsrap"],
+            "This is a hospital OPD Booking system uses info from scanning the Aadhaar Card. ",
+        tags: ["Java", "Spring MVC", "JSP", "CSS3", "JavaScript", "Bootsrap"],
         imageUrl: SpringBoot_OPD,
         link: "https://github.com/Aritra-Basak/Spring_Boot_Projects/tree/main/Camera_Project",
     },
     {
         title: "Doctor Appointment Booking",
         description:
-            "This project demonstrates the application of Core Java, data structures, and multi-threading to build a high-performance console interface for efficient data processing and management.",
+            "This project demonstrates the application of Core Java, data structures, and multi-threading to build a high-performance console interface.",
         tags: ["Core Java", "Data Structures", "Mutli-Threading"],
         imageUrl: CoreJava,
         link: "https://github.com/Aritra-Basak/Doctor-Appointment",
