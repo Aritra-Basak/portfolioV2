@@ -19,7 +19,7 @@ export default function About() {
             id="about"
         >
             <SectionHeading>
-                Aritra's Syntax: Beyond the Screen 💭
+                Aritra&apos;s Syntax: Beyond the Screen 💭
             </SectionHeading>
 
             <p>
@@ -27,12 +27,12 @@ export default function About() {
                 <span className="font-medium">
                 professional with above a year of experience at Ernst & Young (EY),
                 </span>{" "}
-                one of the Big Four firms. Aritra holds a Bachelor's degree in Electronics and Communication Engineering with an impressive score of{" "}
+                one of the Big Four firms. Aritra holds a Bachelor&apos;s degree in Electronics and Communication Engineering with an impressive score of{" "}
                 <span className="italic">9.07 CGPA</span>. As a
                 seasoned <span className="italic">full-stack developer</span>
                 <br />
                 he specializes in{" "}backend developement particularly with
-                <span className="font-medium"> Spring Boot</span>.{" "}Aritra's proficiency extends to various technologies, including{" "}
+                <span className="font-medium"> Spring Boot</span>.{" "}Aritra&apos;s proficiency extends to various technologies, including{" "}
                 <span className="font-medium">React JS, Java, Python, GraphQL, SQL, MongoDB</span>. <br />
                 His diverse skill set and dedication make him a{" "}
                 <span className="italic">
@@ -41,7 +41,7 @@ export default function About() {
             </p>
             <br />
             <p>
-                <span className="italic">When I'm not coding</span>, I enjoy{" "}
+                <span className="italic">When I&apos;m not coding</span>, I enjoy{" "}
                 <span className="font-medium">
                     travelling
                 </span>
