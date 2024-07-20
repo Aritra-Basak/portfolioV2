@@ -30,7 +30,7 @@ export const sendEmail = async (formData: FormData) => {
     try {
         data = await resend.emails.send({
             from: "Contact Form <onboarding@resend.dev>",
-            to: "sohampal1108@gmail.com",
+            to: "basakaritra10@gmail.com",
             subject: "Message from Protfolio Contact Form",
             reply_to: senderEmail,
             react: React.createElement(ContactFormEmail, {
