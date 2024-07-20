@@ -30,7 +30,7 @@ export const sendEmail = async (formData: FormData) => {
     try {
         data = await resend.emails.send({
             from: "Contact Form <onboarding@resend.dev>",
-            to: "basakaritra10@gmail.com",
+            to: "sohampal1108@gmail.com",
             subject: "Message from Protfolio Contact Form",
             reply_to: senderEmail,
             react: React.createElement(ContactFormEmail, {
@@ -38,7 +38,6 @@ export const sendEmail = async (formData: FormData) => {
                 senderEmail: senderEmail,
             }),
         });
-        //We have used React.createElement to create the React Component as the contact-form-email is a tsx
     } catch (error: unknown) {
         return {
             error: getErrorMessage(error),
