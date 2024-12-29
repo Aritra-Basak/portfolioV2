@@ -33,7 +33,7 @@ export default function About() {
                 <br />
                 he specializes in{" "}backend developement particularly with
                 <span className="font-medium"> Spring Boot</span>.{" "}Aritra&apos;s proficiency extends to various technologies, including{" "}
-                <span className="font-medium">React JS, Java, Python, GraphQL, SQL, MongoDB</span>. <br />
+                <span className="font-medium">React JS, Next Js, Java, Python, GraphQL, SQL, MongoDB</span>. <br />
                 His diverse skill set and dedication make him a{" "}
                 <span className="italic">
                      valuable contributor in the fast-paced world of Software Development.

@@ -2,7 +2,7 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import SpringBoot_OPD from "@/public/SpringBoot_OPD.png";
+import bigbrain from "@/public/bigBrain.png"
 import SpringBoot_Prometheus from "@/public/SpringBoot_Prometheus.png";
 import SpringBoot_GraphQl from "@/public/SpringBoot_GraphQl.png";
 import CoreJava from "@/public/CoreJava.png";
@@ -71,6 +71,14 @@ export const experiencesData = [
 
 export const projectsData = [
     {
+        title: "Big Brain",
+        description:
+            "Developed a functional application enabling users to upload, query, and perform vector searches on documents and notes while facilitating collaborative sharing through organizations. ",
+        tags: ["Next Js", "Typescript", "Clerk", "Convex", "Shadecn UI", "Tailwind Css"],
+        imageUrl: bigbrain,
+        link: "https://bigbrain-indol.vercel.app/",
+    },
+    {
         title: "Graph QL",
         description:
             "This project demonstrates the integration of Spring Boot, GraphQL, and an H2 in-memory database .",
@@ -93,14 +101,6 @@ export const projectsData = [
         link: "https://github.com/Aritra-Basak/SpringBoot_ConnectionPool",
     },
     {
-        title: "Aadhaar Scanning",
-        description:
-            "This is a hospital OPD Booking system uses info from scanning the Aadhaar Card. ",
-        tags: ["Java", "Spring MVC", "JSP", "CSS3", "JavaScript", "Bootsrap"],
-        imageUrl: SpringBoot_OPD,
-        link: "https://github.com/Aritra-Basak/Spring_Boot_Projects/tree/main/Camera_Project",
-    },
-    {
         title: "Doctor Appointment Booking",
         description:
             "This project demonstrates the application of Core Java, data structures, and multi-threading to build a high-performance console interface.",
@@ -113,6 +113,7 @@ export const projectsData = [
 export const skillsData = [
     "Java",
     "Python",
+    "Javascript",
     "Spring Boot",
     "Spring MVC",
     "RESTful API",
@@ -120,13 +121,14 @@ export const skillsData = [
     "Grafana",
     "Prometheus",
     "GEN AI",
-    "React",
-    "JavaScript",
+    "React Js",
+    "Next Js",
     "SQL",
     "MongoDB",
-    "Tailwind CSS",
     "HTML5",
     "CSS3",
+    "Tailwind CSS",
     "Bootstrap",
     "Git",
+    "Docker",
 ] as const;
