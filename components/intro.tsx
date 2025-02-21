@@ -66,7 +66,7 @@ export default function Intro() {
                 <span className="font-bold">full-stack developer </span> with{" "}
                 <span className="font-bold">
                     <span className="italic">
-                        1 year of experience
+                        2 year of experience
                     </span>
                 </span>
                 {" "}in blending the art of design with programming skills to deliver an immersive and engaging user experience through efficient{" "}
