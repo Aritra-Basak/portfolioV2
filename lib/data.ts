@@ -6,6 +6,8 @@ import bigbrain from "@/public/bigBrain.png"
 import SpringBoot_Prometheus from "@/public/SpringBoot_Prometheus.png";
 import SpringBoot_GraphQl from "@/public/SpringBoot_GraphQl.png";
 import CoreJava from "@/public/CoreJava.png";
+import Microservice from "@/public/Microservice.png";
+import AI_Agent from "@/public/AI_Agent.png";
 
 export const links = [
     {
@@ -52,10 +54,10 @@ export const experiencesData = [
         date: "Feb, 2022 - Aug, 2022",
     },
     {
-        title: "Graduated from College | B.Tech",
+        title: "Graduated from College | B-Tech",
         location: "Narula Institute of Technology, Kolkata",
         description:
-            "Pursued Bachelor's degree in Electronics and Communication Engineering with an average of 9.07 CGPA.",
+            "Pursued Bachelor's degree in Electronics and Communication Engineering with an average of 9.07 DGPA.",
         icon: React.createElement(LuGraduationCap),
         date: "2019 - 2023",
     },
@@ -63,7 +65,7 @@ export const experiencesData = [
         title: "Full Stack Developer | EY",
         location: "Kolkata, India",
         description:
-            "Currently employed as a Full Stack Java Developer, where I play a vital role in contributing to a range of critical client projects on a daily basis. With an extensive background in web application development, I excel in designing, developing, and implementing robust and scalable web applications using Java and related technologies.",
+            "Currently working as a Full Stack Java Developer, actively contributing to a variety of critical client projects on a daily basis. I bring strong expertise in designing, developing, and deploying robust, scalable web applications using Java and related technologies. In addition to my core development work, I am also passionate about integrating AI solutions into traditional systems. I’ve successfully worked on projects that incorporate Generative AI and automation, enhancing application capabilities and user experience.",
         icon: React.createElement(FaReact),
         date: "Feb, 2023 - present",
     }
@@ -81,7 +83,7 @@ export const projectsData = [
     {
         title: "Graph QL",
         description:
-            "This project demonstrates the integration of Spring Boot, GraphQL, and an H2 in-memory database .",
+            "This project demonstrates the integration of Spring Boot, GraphQL, and an H2 in-memory database. Reduced data-fetching latency by 45% and streamlined API response time.",
         tags: [
             "Java",
             "Spring Boot",
@@ -101,12 +103,20 @@ export const projectsData = [
         link: "https://github.com/Aritra-Basak/SpringBoot_ConnectionPool",
     },
     {
-        title: "Doctor Appointment Booking",
+        title: "User Contact Service",
         description:
-            "This project demonstrates the application of Core Java, data structures, and multi-threading to build a high-performance console interface.",
-        tags: ["Core Java", "Data Structures", "Mutli-Threading"],
-        imageUrl: CoreJava,
-        link: "https://github.com/Aritra-Basak/Doctor-Appointment",
+            "Gained hands-on experience with microservice architecture, learned how to integrate Spring Cloud Netflix dependencies, and developed a foundational understanding of deploying Spring Boot services using Docker.",
+        tags: ["Java", "Spring Boot", "Spring Cloud", "RESTful API", "Microservices", "Docker"],
+        imageUrl: Microservice,
+        link: "https://github.com/Aritra-Basak/MicroserviceProject1-UserContactService",
+    },
+    {
+        title: "AI Agent",
+        description:
+            "Developed a personal AI Agent using Python and Generative AI, enabling real-time responses beyond standard LLM limitations. Features include email automation, local file search, and RAG-based document analysis.",
+        tags: ["Python", "Generative AI", "Email Automation", "Local File Search", "RAG based Document Analysis"],
+        imageUrl: AI_Agent,
+        link: "https://github.com/Aritra-Basak/AI-Agent",
     },
 ] as const;
 
