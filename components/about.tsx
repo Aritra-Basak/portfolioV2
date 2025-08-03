@@ -49,7 +49,7 @@ export default function About() {
                 community dogs{" "}&
                 <span className="font-medium">{" "}learning new things</span>. 
                 <br/>
-                <span className="font-medium">I've also recently started reading books, which has been a refreshing addition to my routine</span>. 
+                <span className="font-medium">I&apos;ve also recently started reading books, which has been a refreshing addition to my routine</span>. 
             </p>
         </motion.section>
     );
