@@ -2,6 +2,22 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
+  "description": "This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).",
+  "homepage": "https://github.com/Aritra-Basak/portfolioV2#readme",
+  "bugs": {
+    "url": "https://github.com/Aritra-Basak/portfolioV2/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aritra-Basak/portfolioV2.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "next.config.js",
+  "directories": {
+    "lib": "lib"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -19,10 +35,10 @@
     "eslint": "8.43.0",
     "eslint-config-next": "13.4.7",
     "framer-motion": "^10.12.17",
-    "next": "13.4.8",
+    "next": "^13.4.8",
     "postcss": "8.4.24",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "react-hot-toast": "^2.4.1",
     "react-icons": "^4.10.1",
     "react-intersection-observer": "^9.5.2",

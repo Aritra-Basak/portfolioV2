@@ -65,13 +65,21 @@ export const experiencesData = [
         title: "Full Stack Developer | EY",
         location: "Kolkata, India",
         description:
-            "Currently working as a Full Stack Java Developer, actively contributing to a variety of critical client projects on a daily basis. I bring strong expertise in designing, developing, and deploying robust, scalable web applications using Java and related technologies. In addition to my core development work, I am also passionate about integrating AI solutions into traditional systems. I’ve successfully worked on projects that incorporate Generative AI and automation, enhancing application capabilities and user experience.",
+            "As a Full Stack Java Developer, I deliver high-impact web solutions, specializing in designing, developing, and deploying robust applications using Java, Spring Boot, and React.js across MVC and microservices architectures. I led the development of a central government project, significantly boosting user engagement by 70% through comprehensive error handling. My work includes developing AI-powered solutions for automated data extraction (reducing errors by 50%, speeding processing by 60%) and increasing health record linking by over 100%. I also engineered a Python script for medical insurance fraud detection, augmenting detection by 70%. I actively integrate Generative AI and Ollama to drive innovation, leveraging a diverse tech stack including Python, Docker, RabbitMQ, Grafana, Prometheus, and GraphQL.",
         icon: React.createElement(FaReact),
         date: "Feb, 2023 - present",
     }
 ] as const;
 
 export const projectsData = [
+    {
+        title: "AI Agent - Personal Assistant",
+        description:
+            "Developed a personal AI Agent using Python and Generative AI, enabling real-time responses beyond standard LLM limitations. Features include email automation, local file search, and RAG-based document analysis.",
+        tags: ["Python", "Generative AI", "Email Automation", "Local File Search", "RAG based Document Analysis"],
+        imageUrl: AI_Agent,
+        link: "https://github.com/Aritra-Basak/AI-Agent",
+    },
     {
         title: "Big Brain",
         description:
@@ -98,7 +106,7 @@ export const projectsData = [
         title: "Connection Pool and Prometheus",
         description:
             "This project showcases the use of Spring Boot, HikariCP, and SQL for efficient data handling, with Prometheus and Grafana.",
-        tags: ["Java", "Spring Boot", "SQL", "Hikari CP","RESTful API", "Prometheus", "Grafana"],
+        tags: ["Java", "Spring Boot", "SQL", "Hikari CP", "RESTful API", "Prometheus", "Grafana"],
         imageUrl: SpringBoot_Prometheus,
         link: "https://github.com/Aritra-Basak/SpringBoot_ConnectionPool",
     },
@@ -109,14 +117,6 @@ export const projectsData = [
         tags: ["Java", "Spring Boot", "Spring Cloud", "RESTful API", "Microservices", "Docker"],
         imageUrl: Microservice,
         link: "https://github.com/Aritra-Basak/MicroserviceProject1-UserContactService",
-    },
-    {
-        title: "AI Agent",
-        description:
-            "Developed a personal AI Agent using Python and Generative AI, enabling real-time responses beyond standard LLM limitations. Features include email automation, local file search, and RAG-based document analysis.",
-        tags: ["Python", "Generative AI", "Email Automation", "Local File Search", "RAG based Document Analysis"],
-        imageUrl: AI_Agent,
-        link: "https://github.com/Aritra-Basak/AI-Agent",
     },
 ] as const;
 

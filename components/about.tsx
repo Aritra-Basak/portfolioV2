@@ -25,15 +25,15 @@ export default function About() {
             <p>
                 Meet Aritra, a skilled{" "}
                 <span className="font-medium">
-                professional with around two years of experience at Ernst & Young (EY),
+                professional with over two years of experience at Ernst & Young (EY),
                 </span>{" "}
                 one of the Big Four firms. Aritra holds a Bachelor&apos;s degree in Electronics and Communication Engineering with an impressive score of{" "}
                 <span className="italic">9.07 CGPA</span>. As a
                 seasoned <span className="italic">full-stack developer</span>
                 <br />
                 he specializes in{" "}backend developement particularly with
-                <span className="font-medium"> Spring Boot</span>.{" "}Aritra&apos;s proficiency extends to various technologies, including{" "}
-                <span className="font-medium">React Js, Next Js, Java, Python, GraphQL, SQL, MongoDB</span>. <br />
+                <span className="font-medium"> Spring Boot</span>.{" "}Aritra&apos;s proficiency extends to various tools & technologies, including{" "}
+                <span className="font-medium">Gen AI, Agentic AI, React Js, Python, GraphQL, SQL, MongoDB</span>. <br />
                 His diverse skill set and dedication make him a{" "}
                 <span className="italic">
                      valuable contributor in the fast-paced world of Software Development.
@@ -43,11 +43,13 @@ export default function About() {
             <p>
                 <span className="italic">When I&apos;m not coding</span>, I enjoy{" "}
                 <span className="font-medium">
-                    wandering around
+                    hitting the Gym
                 </span>
-                , hitting the Gym, listening to good music and feeding the
-                community dogs. I also enjoy{" "}
-                <span className="font-medium">learning new things</span>. 
+                , listening to some good music, feeding the
+                community dogs{" "}&
+                <span className="font-medium">{" "}learning new things</span>. 
+                <br/>
+                <span className="font-medium">I've also recently started reading books, which has been a refreshing addition to my routine</span>. 
             </p>
         </motion.section>
     );
