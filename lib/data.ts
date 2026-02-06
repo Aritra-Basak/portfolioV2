@@ -139,4 +139,5 @@ export const skillsData = [
     "Bootstrap",
     "Git",
     "Docker",
+    "AWS",
 ] as const;

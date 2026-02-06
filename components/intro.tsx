@@ -32,7 +32,7 @@ export default function Intro() {
                             }}
                         >
                     <Image
-                                src="/PortfolioPic.jpeg"
+                                src="/AritrasProfilePic.jpeg"
                                 alt="Aritra's portrait"
                                 width="218"
                                 height="218"
