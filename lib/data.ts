@@ -62,10 +62,10 @@ export const experiencesData = [
         date: "2019 - 2023",
     },
     {
-        title: "Full Stack Developer | EY",
+        title: "Consultant | EY",
         location: "Kolkata, India",
         description:
-            "As a Full Stack Developer, I specialize in AI solutions, working with Large Language Models (LLMs) like Ollama and Gemini, and integrating them with Python to develop intelligent applications, including AI-powered chatbots, document validation systems, and automated data extraction tools. I have also started working with AI Agents using Langgraph, leveraging their capabilities to drive innovation and efficiency. With over 2 years of hands-on experience in Java and Spring Boot, I have designed and built robust web applications, microservices, and RESTful APIs, and contributed to multiple Government projects. My expertise spans a range of technologies, including React.js, Docker, and GraphQL, and I've developed solutions for health record linking, medical insurance fraud detection, and more.",
+            "Working as a Full Stack Developer, I specialize in AI solutions, working with Large Language Models (LLMs) like Ollama and Gemini, and integrating them with Python to develop intelligent applications, including AI-powered chatbots, document validation systems, and automated data extraction tools. I have also started working with AI Agents using Langgraph, leveraging their capabilities to drive innovation and efficiency. With around 3 years of hands-on experience in Java and Spring Boot, I have designed and built robust web applications, microservices, and RESTful APIs, and contributed to multiple Government projects. My expertise spans a range of technologies, including React.js, Docker, and GraphQL.",
         icon: React.createElement(FaReact),
         date: "Feb, 2023 - present",
     }
