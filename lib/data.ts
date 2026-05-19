@@ -4,9 +4,9 @@ import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import bigbrain from "@/public/bigBrain.png"
 import SpringBoot_GraphQl from "@/public/graphql.png";
-import SelfCorrectingRag from "@/public/self_correcting_rag.png";
-import SecurePeer2Peer from "@/public/secure_peer2peer_upi_project.png"
-import AI_Agent from "@/public/ai_agent.png";
+import SelfCorrectingRag from "@/public/selfCorrectingRag.png";
+import SecurePeer2Peer from "@/public/securePeerToPeer.png"
+import AI_Agent from "@/public/aiAgent.png";
 
 export const links = [
     {
