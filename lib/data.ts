@@ -3,10 +3,10 @@ import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import bigbrain from "@/public/bigBrain.png"
-import SpringBoot_GraphQl from "@/public/SpringBoot_GraphQl.png";
-import SelfCorrectingRag from "@/public/SelfCorrectingRag.png";
-import SecurePeer2Peer from "@/public/SecurePeer2Peer.png"
-import AI_Agent from "@/public/AI_Agent.png";
+import SpringBoot_GraphQl from "@/public/graphql.png";
+import SelfCorrectingRag from "@/public/self_correcting_rag.png";
+import SecurePeer2Peer from "@/public/secure_peer2peer_upi_project.png"
+import AI_Agent from "@/public/ai_agent.png";
 
 export const links = [
     {
@@ -74,7 +74,7 @@ export const projectsData = [
     {
         title: "Self-Correcting Agentic RAG Pipeline",
         description:
-            "A production-grade enterprise API engineered in Spring Boot that orchestrates autonomous Guardrail and Evaluator agents over a multi-tenant vector database to programmatically critique, validate, and self-correct LLM responses against raw source documents to eliminate hallucinations.",
+            "A Spring Boot API that uses autonomous LLM agents to programmatically critique and self-correct answers against a vector database to eliminate hallucinations.",
         tags: ["Java", "Spring Boot", "Spring AI", "Vector Database", "Chroma DB", "Ollama", "Large Language Models(LLM)", "Docker"],
         imageUrl: SelfCorrectingRag,
         link: "https://github.com/Aritra-Basak/self-correcting-rag-spring-ai",
@@ -82,7 +82,7 @@ export const projectsData = [
     {
         title: "Secure Peer-to-Peer UPI Wallet System",
         description:
-            "A banking-grade REST API simulating a digital wallet that utilizes pessimistic database locking to eliminate concurrent `double-spend` race conditions and leverages the Saga Orchestrator Pattern to handle distributed network timeouts with automated compensating refunds.",
+            "A banking-grade REST API that uses pessimistic locking to prevent double-spend race conditions and the Saga Pattern to handle network timeouts with automated refunds.",
         tags: ["Java", "Spring Boot", "Concurrency", "RESTful API", "Optimistic Locking", "Pessimistic Locking", "Saga Orchestrator Pattern"],
         imageUrl: SecurePeer2Peer,
         link: "https://github.com/Aritra-Basak/spring-boot-upi-wallet",
