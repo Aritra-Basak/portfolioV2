@@ -3,10 +3,9 @@ import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import bigbrain from "@/public/bigBrain.png"
-import SpringBoot_Prometheus from "@/public/SpringBoot_Prometheus.png";
 import SpringBoot_GraphQl from "@/public/SpringBoot_GraphQl.png";
-import CoreJava from "@/public/CoreJava.png";
-import Microservice from "@/public/Microservice.png";
+import SelfCorrectingRag from "@/public/SelfCorrectingRag.png";
+import SecurePeer2Peer from "@/public/SecurePeer2Peer.png"
 import AI_Agent from "@/public/AI_Agent.png";
 
 export const links = [
@@ -73,20 +72,20 @@ export const experiencesData = [
 
 export const projectsData = [
     {
-        title: "AI Agent - Personal Assistant",
+        title: "Self-Correcting Agentic RAG Pipeline",
         description:
-            "Developed a personal AI Agent using Python and Generative AI, enabling real-time responses beyond standard LLM limitations. Features include email automation, local file search, and RAG-based document analysis.",
-        tags: ["Python", "Generative AI", "Email Automation", "Local File Search", "RAG based Document Analysis"],
-        imageUrl: AI_Agent,
-        link: "https://github.com/Aritra-Basak/AI-Agent",
+            "A production-grade enterprise API engineered in Spring Boot that orchestrates autonomous Guardrail and Evaluator agents over a multi-tenant vector database to programmatically critique, validate, and self-correct LLM responses against raw source documents to eliminate hallucinations.",
+        tags: ["Java", "Spring Boot", "Spring AI", "Vector Database", "Chroma DB", "Ollama", "Large Language Models(LLM)", "Docker"],
+        imageUrl: SelfCorrectingRag,
+        link: "https://github.com/Aritra-Basak/self-correcting-rag-spring-ai",
     },
     {
-        title: "Big Brain",
+        title: "Secure Peer-to-Peer UPI Wallet System",
         description:
-            "Developed a functional application enabling users to upload, query, and perform vector searches on documents and notes while facilitating collaborative sharing through organizations. ",
-        tags: ["Next Js", "Typescript", "Clerk", "Convex", "Shadecn UI", "Tailwind Css"],
-        imageUrl: bigbrain,
-        link: "https://bigbrain-indol.vercel.app/",
+            "A banking-grade REST API simulating a digital wallet that utilizes pessimistic database locking to eliminate concurrent `double-spend` race conditions and leverages the Saga Orchestrator Pattern to handle distributed network timeouts with automated compensating refunds.",
+        tags: ["Java", "Spring Boot", "Concurrency", "RESTful API", "Optimistic Locking", "Pessimistic Locking", "Saga Orchestrator Pattern"],
+        imageUrl: SecurePeer2Peer,
+        link: "https://github.com/Aritra-Basak/spring-boot-upi-wallet",
     },
     {
         title: "Graph QL",
@@ -103,21 +102,21 @@ export const projectsData = [
         link: "https://github.com/Aritra-Basak/SpringBoot_GraphQl",
     },
     {
-        title: "Connection Pool and Prometheus",
+        title: "AI Agent - Personal Assistant",
         description:
-            "This project showcases the use of Spring Boot, HikariCP, and SQL for efficient data handling, with Prometheus and Grafana.",
-        tags: ["Java", "Spring Boot", "SQL", "Hikari CP", "RESTful API", "Prometheus", "Grafana"],
-        imageUrl: SpringBoot_Prometheus,
-        link: "https://github.com/Aritra-Basak/SpringBoot_ConnectionPool",
+            "Developed a personal AI Agent using Python and Generative AI, enabling real-time responses beyond standard LLM limitations. Features include email automation, local file search, and RAG-based document analysis.",
+        tags: ["Python", "Generative AI", "Email Automation", "Local File Search", "RAG based Document Analysis"],
+        imageUrl: AI_Agent,
+        link: "https://github.com/Aritra-Basak/AI-Agent",
     },
     {
-        title: "User Contact Service",
+        title: "Big Brain",
         description:
-            "Gained hands-on experience with microservice architecture, learned how to integrate Spring Cloud Netflix dependencies, and developed a foundational understanding of deploying Spring Boot services using Docker.",
-        tags: ["Java", "Spring Boot", "Spring Cloud", "RESTful API", "Microservices", "Docker"],
-        imageUrl: Microservice,
-        link: "https://github.com/Aritra-Basak/MicroserviceProject1-UserContactService",
-    },
+            "Developed a functional application enabling users to upload, query, and perform vector searches on documents and notes while facilitating collaborative sharing through organizations. ",
+        tags: ["Next Js", "Typescript", "Clerk", "Convex", "Shadecn UI", "Tailwind Css"],
+        imageUrl: bigbrain,
+        link: "https://bigbrain-indol.vercel.app/",
+    }
 ] as const;
 
 export const skillsData = [
@@ -125,6 +124,7 @@ export const skillsData = [
     "Python",
     "Javascript",
     "Spring Boot",
+    "Spring AI",
     "RESTful API",
     "GraphQL",
     "LangGraph",
