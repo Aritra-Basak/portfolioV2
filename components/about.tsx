@@ -25,7 +25,7 @@ export default function About() {
             <p>
                 Meet Aritra, a skilled{" "}
                 <span className="font-medium">
-                professional with around three years of experience at Ernst & Young (EY),
+                professional with three years of experience at Ernst & Young (EY),
                 </span>{" "}
                 one of the Big Four firms. Aritra holds a Bachelor&apos;s degree in Electronics and Communication Engineering with an impressive score of{" "}
                 <span className="italic">9.07 CGPA</span>. As a

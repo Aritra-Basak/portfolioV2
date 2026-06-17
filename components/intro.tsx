@@ -63,10 +63,10 @@ export default function Intro() {
                 animate={{ opacity: 1, y: 0 }}
             >
                 <span className="font-bold">Hello, I&apos;m Aritra</span>, a{" "}
-                <span className="font-bold">full-stack developer </span> with around{" "}
+                <span className="font-bold">full-stack developer </span> with{" "}
                 <span className="font-bold">
                     <span className="italic">
-                        3 year of experience
+                        3 years of experience
                     </span>
                 </span>
                 {" "}in blending the art of design with programming skills to deliver an immersive and engaging user experience through efficient{" "}
