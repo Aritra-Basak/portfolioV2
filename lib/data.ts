@@ -75,7 +75,7 @@ export const projectsData = [
         title: "Self-Correcting Agentic RAG Pipeline",
         description:
             "A Spring Boot API that uses autonomous LLM agents to programmatically critique and self-correct answers against a vector database to eliminate hallucinations.",
-        tags: ["Java", "Spring Boot", "Spring AI", "Vector Database", "Chroma DB", "Ollama", "Large Language Models(LLM)", "Docker"],
+        tags: ["Java", "Spring Boot", "Spring AI", "OAuth 2.0", "Vector Database", "Chroma DB", "Ollama", "Large Language Models(LLM)", "Docker"],
         imageUrl: SelfCorrectingRag,
         link: "https://github.com/Aritra-Basak/self-correcting-rag-spring-ai",
     },
